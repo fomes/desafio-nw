@@ -51,14 +51,11 @@ header {
   background: #033244 0% 0% no-repeat padding-box;
   opacity: 1;
   height: 72px;
-
   display: flex;
   align-items: center;
-  width: 100%;
-  gap: 20px;
 }
 
-.sub-header span {
+.sub-header-a span {
   text-align: left;
   font-family: "ArcherPro";
   font-size: 14px;
@@ -66,8 +63,35 @@ header {
   color: #ffffff;
   text-transform: uppercase;
   opacity: 1;
+  margin-right: 10px;
+  cursor: pointer;
 }
 
 .sub-header span:first-child {
   margin-left: 302px;
+}
+
+.sub-header-b {
+  position: absolute;
+  right: 299px;
+}
+
+.search-input {
+  width: 238px;
+  height: 40px;
+  background: var(--unnamed-color-033244) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--unnamed-color-00aeef);
+  background: #033244 0% 0% no-repeat padding-box;
+  border: 1px solid #00aeef;
+  border-radius: 8px;
+  opacity: 1;
+  padding-left: 10px;
+  color: #ffffff;
+}
+
+.fa-magnifying-glass {
+  margin-left: -25px;
+  opacity: 1;
+  cursor: pointer;
+  color: #ffffff;
 }
