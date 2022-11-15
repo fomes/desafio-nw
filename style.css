@@ -207,6 +207,10 @@ header {
   margin-right: 180px;
 }
 
+.section-discover {
+  display: flex;
+}
+
 .section-a {
   display: flex;
   margin-top: 100px;
@@ -214,8 +218,13 @@ header {
 
 .section-b {
   display: flex;
-  margin-left: 220px;
+  margin-top: 150px;
+  margin-left: 100px;
   gap: 120px;
+}
+
+.section-b span img {
+  width: 100%;
 }
 
 .section-b span {
@@ -231,6 +240,7 @@ header {
   color: var(--unnamed-color-033244);
   font: normal normal 900 32px/43px Roboto Slab;
   letter-spacing: 0px;
+  margin-top: 50px;
 }
 
 .sub-sections-title span:first-child {
@@ -388,6 +398,10 @@ header {
   margin-left: 290px;
 }
 
+.vision-section-img img {
+  width: 68.2vw;
+}
+
 .vision-section-title {
   color: white;
   margin-left: 390px;
@@ -421,6 +435,11 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 390px;
+  width: 60vw;
+}
+
+.info-section img {
+  height: 20vh;
 }
 
 .info-title {
@@ -439,7 +458,7 @@ header {
   padding-left: 100px;
   display: flex;
   height: 262px;
-  width: 1320px;
+  width: 60vw;
   background: #f3f3f3;
 }
 
@@ -452,7 +471,7 @@ header {
 
 .news-a p:first-child {
   text-align: left;
-  font: normal normal 900 32px/38px Roboto Slab;
+  font: normal normal 900 1.66vw/1.97vw Roboto Slab;
   letter-spacing: 0px;
   opacity: 1;
   color: #033244;
@@ -470,13 +489,14 @@ header {
 }
 
 .form-section input {
-  width: 572px;
-  height: 44px;
+  width: 32vw;
+  height: 5vh;
   border: 1px solid #005271;
   opacity: 1;
   margin-top: 30px;
   padding-left: 20px;
   margin-bottom: -10px;
+  margin-right: 30px;
 }
 
 .form-section button {
@@ -488,6 +508,7 @@ header {
   background: #283137;
   margin-top: 102px;
   font-family: sans-serif;
+  width: 98vw;
 }
 
 .footer-sections {
@@ -504,7 +525,7 @@ header {
 
 .footer-hr-top {
   position: absolute;
-  width: 1888px;
+  width: 98vw;
   height: 5px;
   background: var(--unnamed-color-0089bc) 0% 0% no-repeat padding-box;
   background: #0089bc 0% 0% no-repeat padding-box;
