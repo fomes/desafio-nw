@@ -60,7 +60,7 @@ header {
 
 .sub-header-a span {
   text-align: left;
-  font-family: "Archer Medium", sans-serif;
+  font-family: sans-serif;
   font-size: 14px;
   letter-spacing: 0px;
   color: #ffffff;
@@ -368,8 +368,12 @@ header {
 
 .news-section {
   margin-top: -300px;
-  margin-left: 390px;
+  margin-left: 290px;
+  padding-left: 100px;
   display: flex;
+  height: 262px;
+  width: 1320px;
+  background: #f3f3f3;
 }
 
 .form-section {
@@ -410,4 +414,92 @@ header {
 
 .form-section button {
   margin-top: 30px;
+}
+
+.footer {
+  height: 468px;
+  background: #283137;
+  margin-top: 102px;
+  font-family: sans-serif;
+}
+
+.footer-sections {
+  position: absolute;
+  right: 10%;
+  display: flex;
+  margin-top: -30px; 
+  font-size: 14px;
+}
+
+.footer-sections div {
+  margin-right: 30px;
+}
+
+.footer-hr-top {
+  position: absolute;
+  width: 1903px;
+  height: 5px;
+  background: var(--unnamed-color-0089bc) 0% 0% no-repeat padding-box;
+  background: #0089bc 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-top: 102px;
+}
+
+.footer-hr {
+  background: #e1e1e1 0% 0% no-repeat padding-box;
+  width: 80%;
+  right: 10%;
+  margin-top: 200px;
+  opacity: 1;
+}
+
+.footer-sections div strong {
+  color: white;
+  text-transform: uppercase;
+}
+
+.footer-sections div p {
+  color: #00aeef;
+  font-weight: 600;
+}
+
+.footer-sections div:last-child p {
+  color: white;
+}
+
+.footer-copy-right {
+  font: normal normal medium 14px/19px Roboto Slab;
+  letter-spacing: 0px;
+  color: #e1e1e1;
+  opacity: 1;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left: 190px;
+}
+
+.footer-socials {
+  color: var(--unnamed-color-71d8ff);
+  letter-spacing: 0px;
+  color: #71d8ff;
+  opacity: 1;
+  font-weight: 600;
+  font-size: 20px;
+  position: absolute;
+  right: 11%;
+  margin-top: -60px;
+}
+
+.footer-socials div {
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+}
+
+.footer-socials div i {
+  font-size: 29px;
+}
+
+.footer img  {
+  margin-left: 190px;
+  margin-top: 50px;
 }
