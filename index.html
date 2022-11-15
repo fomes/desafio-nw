@@ -13,6 +13,7 @@
       referrerpolicy="no-referrer"
     />
     <title>Nerdweb</title>
+    <script defer src="script.js"></script>
   </head>
   <body>
     <header class="header">
@@ -43,7 +44,9 @@
     </header>
     <nav class="sub-header">
       <div class="sub-header-a">
-        <span>sites<i class="fa-solid fa-caret-down"></i></span>
+        <span onclick="openDropdown()" class="dropbtn">
+          sites<i class="fa-solid fa-caret-down"></i>
+        </span>
         <span>redes sociais</span>
         <span>e-commerce</span>
         <span>mídia online</span>
@@ -59,6 +62,57 @@
         ></span>
       </div>
     </nav>
+    <div id="sites-drop" class="dropdown">
+      <div class="d-hr"></div>
+      <div class="dropdown-content">
+        <div class="dropdown-items">
+          <div>
+            <p>
+              Soluções <br />
+              site
+            </p>
+            <span>Briefing</span>
+            <span>Pesquisa</span>
+            <span>Criação</span>
+            <span>Veiculação</span>
+          </div>
+
+          <div>
+            <p>
+              Soluções por <br />
+              E-commerce
+            </p>
+            <span>Briefing</span>
+            <span>Pesquisa</span>
+            <span>Criação</span>
+            <span>Veiculação</span>
+            <span>Análise de mercado</span>
+          </div>
+
+          <div>
+            <p>
+              Soluções por <br />
+              Redes Sociais
+            </p>
+            <span>Briefing</span>
+            <span>Pesquisa</span>
+            <span>Criação</span>
+            <span>Veiculação</span>
+          </div>
+
+          <div>
+            <p>
+              Soluções por <br />
+              Landing Page
+            </p>
+            <span>Briefing</span>
+            <span>Pesquisa</span>
+            <span>Criação</span>
+            <span>Veiculação</span>
+          </div>
+        </div>
+      </div>
+    </div>
     <div>
       <div>
         <img

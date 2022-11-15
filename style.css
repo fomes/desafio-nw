@@ -1,5 +1,72 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@800&display=swap");
 @import url("https://fonts.cdnfonts.com/css/archer-book");
+
+.dropdown {
+  width: 1300px;
+  height: 272px;
+  opacity: 1;
+  margin-left: 300px;
+  position: absolute;
+  display: none;
+}
+
+.d-hr {
+  background: #00aeef;
+  height: 4px;
+}
+
+.dropdown-content {
+  font-family: sans-serif;
+  position: absolute;
+  background: #f1f1f1;
+  min-width: 160px;
+  width: 100%;
+  height: 100%;
+}
+
+.dropdown-items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.dropdown-items div:first-child span {
+  color: #033244;
+  font-weight: 600;
+}
+
+.dropdown-items div span {
+  color: var(--unnamed-color-033244);
+  text-align: left;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.dropdown-items div p {
+  color: var(--unnamed-color-005271);
+  font-family: "Sora", sans-serif;
+  text-align: left;
+  font-size: 25px;
+  letter-spacing: 0px;
+  color: #005271;
+  opacity: 1;
+}
+
+.dropdown-items div a {
+  color: black;
+}
+
+.dropdown-items div {
+  display: flex;
+  flex-direction: column;
+}
+
+.show {
+  display: block;
+}
 
 header {
   display: flex;
@@ -427,7 +494,7 @@ header {
   position: absolute;
   right: 10%;
   display: flex;
-  margin-top: -30px; 
+  margin-top: -30px;
   font-size: 14px;
 }
 
@@ -437,7 +504,7 @@ header {
 
 .footer-hr-top {
   position: absolute;
-  width: 1903px;
+  width: 1888px;
   height: 5px;
   background: var(--unnamed-color-0089bc) 0% 0% no-repeat padding-box;
   background: #0089bc 0% 0% no-repeat padding-box;
@@ -461,10 +528,12 @@ header {
 .footer-sections div p {
   color: #00aeef;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .footer-sections div:last-child p {
   color: white;
+  cursor: auto;
 }
 
 .footer-copy-right {
@@ -497,9 +566,10 @@ header {
 
 .footer-socials div i {
   font-size: 29px;
+  cursor: pointer;
 }
 
-.footer img  {
+.footer img {
   margin-left: 190px;
   margin-top: 50px;
 }
