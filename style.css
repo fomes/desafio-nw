@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@800&display=swap");
 @import url("https://fonts.cdnfonts.com/css/archer-book");
 
+button:hover {
+  background: #53bce2;
+  transition: 0.2s;
+}
+
 .dropdown {
   width: 1300px;
   height: 272px;
@@ -77,6 +82,10 @@ header {
   width: 100%;
 }
 
+.banner-mobile {
+  display: none;
+}
+
 .header span:not(.none) {
   cursor: pointer;
 }
@@ -94,6 +103,10 @@ header {
   letter-spacing: 0px;
   color: #2c3a2f;
   opacity: 1;
+}
+
+.header-b:last-child i {
+  display: none;
 }
 
 .header-b {
@@ -229,7 +242,6 @@ header {
 
 .section-b span {
   text-align: center;
-  font: normal normal medium 15px/20px Roboto Slab;
   letter-spacing: 0px;
   color: #101912;
   opacity: 1;
@@ -283,6 +295,14 @@ header {
 .bg-time-section {
   text-align: center;
   margin-bottom: 77px;
+}
+
+.bg-time-section img:first-child {
+  width: 100%;
+}
+
+.bg-time-section img:last-child {
+  display: none;
 }
 
 .bg-time-title,
@@ -402,6 +422,10 @@ header {
   width: 68.2vw;
 }
 
+.vision-section-img img:last-child {
+  display: none;
+}
+
 .vision-section-title {
   color: white;
   margin-left: 390px;
@@ -471,7 +495,7 @@ header {
 
 .news-a p:first-child {
   text-align: left;
-  font: normal normal 900 1.66vw/1.97vw Roboto Slab;
+  font: normal normal 900 32px/38px Roboto Slab;
   letter-spacing: 0px;
   opacity: 1;
   color: #033244;
@@ -593,4 +617,230 @@ header {
 .footer img {
   margin-left: 190px;
   margin-top: 50px;
+}
+
+@media screen and (max-width: 360px) {
+  .header-a span {
+    display: none;
+  }
+
+  .header-text {
+    display: none;
+  }
+
+  .header-a div {
+    position: absolute;
+    left: 10%;
+  }
+
+  .header-b {
+    position: absolute;
+    display: flex;
+    top: 20px;
+    left: 200px;
+  }
+
+  .header-b:last-child i {
+    display: block;
+    font-size: 20px;
+  }
+
+  .sub-header div {
+    display: none;
+  }
+
+  .site-banner {
+    display: none;
+  }
+
+  .banner-mobile {
+    display: block;
+    margin-top: -70px;
+    width: 100%;
+  }
+
+  .section-discover {
+    margin-top: -100px;
+    flex-direction: column;
+  }
+
+  .section-a {
+    margin-left: -280px;
+  }
+
+  .section-b {
+    flex-direction: column;
+    margin-top: -10px !important;
+    margin-right: 90px;
+    gap: 20px !important;
+  }
+
+  .btn-services {
+    position: absolute;
+    margin-top: 950px;
+    margin-left: 100px;
+    left: 0;
+  }
+
+  .sub-sections-title {
+    margin-top: 150px;
+  }
+
+  .bg-time-section img:last-child {
+    display: block;
+    width: 100%;
+  }
+
+  .bg-time-section img:first-child {
+    display: none;
+  }
+
+  .key-line {
+    display: none;
+  }
+
+  .bg-time-img-text {
+    margin-left: -1px;
+  }
+
+  .bg-time-img-text p {
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word;
+    margin-top: -20px;
+  }
+
+  .btn-sign-up {
+    margin-top: 10px;
+    margin-left: 90px;
+  }
+
+  .service-section {
+    width: 280px;
+  }
+
+  .service-card a {
+    margin-left: 80px;
+  }
+
+  .service-card p {
+    margin-left: 50px;
+    text-align: justify;
+    width: 320px;
+  }
+
+  .service-card strong {
+    margin-left: 10px;
+  }
+
+  .service-card:not(:first-child) {
+    display: none;
+  }
+
+  .vision-section-img {
+    margin-top: 40px;
+  }
+
+  .vision-section {
+    margin-top: 80px;
+    margin-left: -380px;
+  }
+
+  .vision-section-title {
+    font-size: 22px;
+    width: 100%;
+  }
+
+  .vision-section-text {
+    font-size: 14px;
+    width: 330px;
+    text-align: center;
+    margin-top: -20px;
+  }
+
+  .vision-section-img img:first-child {
+    display: none;
+  }
+
+  .vision-section-img img:last-child {
+    display: block;
+    margin-left: -300px;
+    width: 362px;
+  }
+
+  .vision-section button {
+    margin-top: 1px;
+  }
+
+  .info-line svg {
+    margin-top: -80px;
+    width: 11px;
+  }
+
+  .info-section {
+    margin-left: -370px;
+    flex-direction: column;
+    width: 300px;
+  }
+
+  .info-a {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .info-b {
+    display: flex;
+  }
+
+  .info-b img {
+    width: 100px;
+  }
+
+  .news-section {
+    margin-left: -80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+  }
+
+  .news-a p:first-child {
+    font-size: 20px;
+  }
+
+  .news-a p:last-child {
+    font-size: 18px;
+  }
+
+  .form-section {
+    margin-top: -20px;
+    display: flex;
+  }
+
+  .form-section input {
+    width: 100%;
+    margin-left: -80px;
+  }
+
+  .form-section button {
+    margin-left: -80px;
+    width: 268px;
+  }
+
+  .footer-sections, .footer-copy-right, .footer-hr {
+    display: none;
+  }
+
+  .footer-socials {
+    margin-top: 250px;
+  }
+
+  .footer-socials div{
+    margin-left: 10px;
+  }
+
+  .footer img {
+    margin-left: 40px;
+  }
+
 }
