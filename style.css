@@ -827,7 +827,9 @@ header {
     width: 268px;
   }
 
-  .footer-sections, .footer-copy-right, .footer-hr {
+  .footer-sections,
+  .footer-copy-right,
+  .footer-hr {
     display: none;
   }
 
@@ -835,12 +837,11 @@ header {
     margin-top: 250px;
   }
 
-  .footer-socials div{
+  .footer-socials div {
     margin-left: 10px;
   }
 
   .footer img {
     margin-left: 40px;
   }
-
 }
